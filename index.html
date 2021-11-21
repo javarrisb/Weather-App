@@ -12,34 +12,101 @@
 
 <body>
     <header class="p-3 mb-2 bg-primary text-white">
-        <h1 class="font-weight-bold text-center">Weather Dashboard </h1>
+        <h1 class="font-weight-bold text-center .bg-gradient-primary">Weather Dashboard </h1>
     </header>
 
-    <main class="flex-row justify-space-between">
-        <div class="col-12 col-md-4">
-            <div class="card">
-                <h3 class="card-header text-uppercase">Search for a City:</h3>
-                <input class="form-control form-control-lg" type="text" placeholder="City Name">
-                <button onclick="saveWeather()" type="submit" class="btn btn-primary" name="search" id="city-search">Search</button>
+    
+    <div class="col-12 col-md-4">
+        <div class="card">
+            <h3 class="card-header text-uppercase">Search for a City:</h3>
+            <input class="form-control form-control-lg" type="text" id="cityinput" placeholder="City Name">
+            <button type="submit" class="btn btn-primary" name="city" id="city-search">Search</button>
+        </div>
+    </div>
+    </form>
+    </div>
+    </div>
+
+    
+    <div class="col-12 col-md-8 border 1px solid black" id="weather">
+        <div class="list-group">
+            <div id="cityout"> City:</div>
+            <div id="temp">Temp:</div>
+            <div id="wind">Wind:</div>
+            <div id="humidity">Humidity</div>
+            <div id="uvcity">UV:</div>
+        </div>
+    </div>
+
+
+    <div class="card align-items-start w-25" id="search-history">
+        <div class="card-body btn-group-vertical">
+            <button class="btn p-3 mb-2 bg-secondary text-white" data-weather="data-weather">London</button>
+            <button class="btn p-3 mb-2 bg-secondary text-white" data-weather="data-weather">Paris</button>
+            <button class="btn p-3 mb-2 bg-secondary text-white" data-weather="data-weather">New York</button>
+            <button class="btn p-3 mb-2 bg-secondary text-white" data-weather="data-weather">Charlotte</button>
+            <button class="btn p-3 mb-2 bg-secondary text-white" data-weather="data-weather">Rome</button>
+        </div>
+
+    </div>
+    <div class="container" id="forecast">5 Day Forecast:
+        <div class="card w-25">
+            <div class="card-body">
+                <div id="date">Date</div>
+                <div id="temp-1">Temp</div>
+                <div id="wind-1">Wind</div>
+                <div id="humidity-1">Humidity</div>
             </div>
         </div>
-        </form>
+    </div>
 
-        <div class="card align-items-start">
-            <div class="card-body btn-group-vertical" id="search-history">
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
-                <button class="btn p-3 mb-2 bg-secondary text-white" data-future="">City Name</button>
+    <div class="container-1">
+        <div class="card w-25">
+            <div class="card-body">
+                <div id="date">Date</div>
+                <div id="temp-1">Temp</div>
+                <div id="wind-1">Wind</div>
+                <div id="humidity-1">Humidity</div>
             </div>
-
         </div>
+    </div>
 
-    </main>
+    <div class="container-2">
+        <div class="card w-25">
+            <div class="card-body">
+                <div id="date">Date</div>
+                <div id="temp-1">Temp</div>
+                <div id="wind-1">Wind</div>
+                <div id="humidity-1">Humidity</div>
+            </div>
+        </div>
+    </div>
 
+    
+    <div class="container-3">
+        <div class="card w-25">
+            <div class="card-body">
+                <div id="date">Date</div>
+                <div id="temp-1">Temp</div>
+                <div id="wind-1">Wind</div>
+                <div id="humidity-1">Humidity</div>
+            </div>
+        </div>
+    </div>
+
+      <div class="container-4">
+        <div class="card w-25">
+            <div class="card-body">
+                <div id="date">Date</div>
+                <div id="temp-1">Temp</div>
+                <div id="wind-1">Wind</div>
+                <div id="humidity-1">Humidity</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/weather.js"></script>
 </body>
 

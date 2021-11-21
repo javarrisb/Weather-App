@@ -1,4 +1,77 @@
 * {
     box-sizing: border-box;
 }
-  
+
+#weather {
+    position: relative; top:-150px; left: 450px;
+}
+
+#search-history {
+    position: relative; top:-100px;
+    border: none;
+
+}
+
+#cityout {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#temp {
+    padding: 5px;
+    text-align: left;
+}
+
+#wind {
+    padding: 5px;
+    text-align: start;
+}
+
+#humidity {
+    padding: 5px;
+    text-align: start;
+}
+
+#uv {
+    padding: 10px;
+    text-align: start;
+}
+#forecast {
+    position: relative; top: -400px; left: 125px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.card-body {
+    border: 0 solid black;
+    background-color:rgb(33, 33, 66);
+    color: white;
+    
+}
+
+.container-1{
+    position: relative; top: -592; left: 550px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.container-2 {
+    position: relative; top: -785; left: 900px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-3 {
+    position: relative; top: -977; left: 1250px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-4 {
+    position: relative; top: -1170; left: 1595px;
+    font-size: 25px;
+    font-weight: bold;
+}
