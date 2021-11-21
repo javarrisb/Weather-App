@@ -9,3 +9,8 @@
 - Jquery
 - OpenWeather API
 
+#Website Link 
+-https://javarrisb.github.io/Weather-App/
+
+# Contributions
+-Made with courage by Javarrisb
