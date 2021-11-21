@@ -1,5 +1,5 @@
 # Open Weather
-* A weather app that allows you to view the current andd future weather for multiple cities.
+* A weather app that allows you to view the current and future weather for multiple cities.
 
 # Web Tools used to build this application
 - HTML
